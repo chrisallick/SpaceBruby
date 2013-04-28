@@ -1,10 +1,14 @@
-SpaceBruby: A Ruby SpaceBrew client.
+# SpaceBruby: A Ruby SpaceBrew client.
 
-====================================
+## Install dependencies
+``` bash
+bundle install
+```
+and
 
-To install dependencies and launch client:
-$>bundle install
-$>rackup
+## launch client/demo:
+``` bash
+rackup
+```
 
-EventMachine WebSocket Client Library:
-https://github.com/imanel/websocket-eventmachine-client
+- [EventMachine WebSocket Client Library](https://github.com/imanel/websocket-eventmachine-client)
